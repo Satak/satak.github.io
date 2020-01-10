@@ -5,10 +5,14 @@ categories: [test]
 tags: [test, tech]
 ---
 
-# Hello
-
-My first blog post!
+Testing 1..2..3
 
 ```
 code blocks are fun!
 ```
+
+### Header 3
+
+some text here
+
+![Error picture](/assets/error.png)
