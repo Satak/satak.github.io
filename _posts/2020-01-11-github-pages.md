@@ -16,7 +16,7 @@ GitHub offers nice way to serve static web pages directly from GitHub repository
 
 ```markdown
 # Blog posts
-
+{% raw %}
 <ul>
   {% for post in site.posts %}
     <li>
@@ -24,6 +24,7 @@ GitHub offers nice way to serve static web pages directly from GitHub repository
     </li>
   {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 - Create (if doesn't exist) `_config.yml` file to your GitHub repository root and add this content there:
