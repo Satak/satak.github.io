@@ -15,6 +15,7 @@ Note that if you want to make folders to your GitHub page you must first clone y
 
 - Official GitHub pages info: <https://pages.github.com>
 - Jekyll documentation: <https://jekyllrb.com/docs/github-pages>
+- Minimal Jekyll theme documentation: <https://github.com/pages-themes/minimal>
 
 ## Step-By-Step Guide
 
@@ -90,3 +91,5 @@ More text here with cat pictures from my repository
 - You can also set your own custom domain to point to your github pages site:
 
 <https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site>
+
+- If you want to customise your Jekyll theme's layout you can just make `_layouts` folder to your repository root, add there `default.html` from your theme source code and make the changes you want. Explaned also here: <https://github.com/pages-themes/minimal>
