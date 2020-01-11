@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'GitHub pages'
-categories: [test]
-tags: [test, tech]
+categories: [github]
+tags: [github pages, tech, web]
 ---
 
 GitHub offers nice way to serve static web pages directly from GitHub repository to your own subdomain. 
@@ -55,4 +55,4 @@ More text here with cat pictures from my repository
 ```
 
 - Now your GitHub repository should look something like this:
-  
+![GitHub example](/assets/github_example.png)
