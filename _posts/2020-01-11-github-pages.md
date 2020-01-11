@@ -47,6 +47,16 @@ theme: jekyll-theme-minimal
 author: <here put your own GitHub user name or your actual name or nick>
 ```
 
+Example with custom title, description and logo from assets folder:
+
+```yaml
+title: 'Satak blog'
+description: 'Blog posts from Satak'
+theme: jekyll-theme-minimal
+author: Satak
+logo: '/assets/logo.gif'
+```
+
 - Create `assets` folder to your GitHub repository root for your pictures and add a picture file there
 
 - Create `_posts` folder to your GitHub repository and add markdown file there named like this: `2020-01-01-my-post.md` (date is automatically picked up for html rendering) and add some markdown content there:
@@ -72,6 +82,8 @@ More text here with cat pictures from my repository
 ![GitHub example](/assets/github_example.png)
 
 - This is now all done and you should see your public GitHub webpage at `<yourname>.github.io` url address!
+
+![GitHub pages ready](/assets/github_pages_ready.png)
 
 - You can also set your own custom domain to point to your github pages site:
 
