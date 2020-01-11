@@ -7,11 +7,11 @@ tags: [github pages, tech, web]
 
 ## Introduction
 
-GitHub offers nice way to serve static web pages directly from GitHub repository to your own subdomain. It also can use Jekyll (with Liquid templating language) and you can write your web content in a nice markdown format: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
+GitHub offers a nice way to serve static web pages directly from GitHub repository to your own subdomain. It also can use Jekyll (with Liquid templating language) and you can write your web content in a nice markdown format: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 
-You can either pick a ready made Jekyll theme or you can write your own styling. Here I go through how to start with the ready made themes. To setup this it **takes less than 10 minutes!**
+You can either pick a ready made Jekyll theme or you can write your own styling. Here I go through how to start with the ready made themes. To setup this, it **takes less than 10 minutes!**
 
-Note that if you want make folders to your GitHub page you must first clone your GitHub pages repository to your local machine, then do all these changes there and commit those changes to the `master` branch. To see your end result it usually takes couple minutes to propagate to the public webpage.
+Note that if you want to make folders to your GitHub page you must first clone your GitHub pages repository to your local machine, then do all these changes there and commit those changes to the `master` branch. To see your end result it usually takes couple minutes to propagate to the public webpage.
 
 - Official GitHub pages info: <https://pages.github.com>
 - Jekyll documentation: <https://jekyllrb.com/docs/github-pages>
@@ -44,7 +44,7 @@ Note that if you want make folders to your GitHub page you must first clone your
 
 ```yaml
 theme: jekyll-theme-minimal
-author: <here put your own GitHub user name or your actual name or nick>
+author: <here put your own GitHub username or your actual name or nick>
 ```
 
 Example with a custom title, description and logo from the assets folder:
@@ -71,7 +71,7 @@ tags: [test, cats, dogs]
 
 This is my first blog post!
 
-### Sub title here
+### Subtitle here
 
 More text here with cat pictures from my repository
 
@@ -90,4 +90,3 @@ More text here with cat pictures from my repository
 - You can also set your own custom domain to point to your github pages site:
 
 <https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site>
-
